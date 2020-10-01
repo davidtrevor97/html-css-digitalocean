@@ -6,13 +6,13 @@
 section ,
 footer{
   padding: 50px 0 50px 0;
-  height: 400px;
+  height: 600px;
 }
-.row div{
+/* .row div{
   background-color: red;
   border: 1px solid black;
   height: 100px;
-}
+} */
 /* UTILITIES */
 .paragraph-big{
   color: #8a95ad;
@@ -50,9 +50,56 @@ footer{
 .bg-dark-blue{
   background-color: #010e28;
 }
+.margin-small{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.margin-big{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
 /* STYLES */
-#section-3,
-#section-5,
-#section-6{
-  height: 600px;
+
+/* SECTION-1 */
+#section-1{
+  background-image: url("../img/bg-banner-home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#section-1  button,
+#section-1  .input-group{
+  width: 90%;
+}
+#section-1 h1{
+  color: white;
+  font-size: 50px;
+}
+#section-1 > div > div > div:first-child p{
+  color: #f3f5f9;
+  font-size: 20px;
+}
+#section-1 > div > div > div:last-child{
+  border-radius: 5px;
+  background-color: white;
+}
+#section-1 h2,
+#section-1 button{
+  position:relative;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+#section-1 button:first-of-type{
+  color: white;
+  background-color: #1072ff;
+}
+#section-1 button img{
+  position: absolute;
+  left: 2px;
+  height: 20px
+}
+#google-button{
+  box-shadow: 10px;
+  background-color: white;
 }
