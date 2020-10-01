@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  padding: 50px 0 50px 0;
+  height: 300px;
+}
+.row div{
+  background-color: red;
+  height: 100px;
+}
+/* UTILITIES */
+.paragraph-big{
+  color: #8a95ad;
+}
+.paragraph-small{
+  color: #8a95ad;
+}
+.header-two{
+  color: #031b4e;
+}
+.header-three{
+
+}
+.header-three-f{
+
+}
+.link-blue{
+  color: #1072ff;
+}
+.list-item-f{
+
+}
+.list-item-f:hover{
+
+}
+.partner-img{
+
+}
+.bg-gray{
+  background-color: #f3f5f9;
+}
+.bg-blue{
+  background-image:linear-gradient(180deg, #1072ff, #2a34ae);
+}
+.bg-dark-blue{
+  background-color: #010e28;
+}
