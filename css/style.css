@@ -6,7 +6,6 @@
 section ,
 footer{
   padding: 50px 0 50px 0;
-  height: 600px;
 }
 /* .row div{
   background-color: red;
@@ -16,12 +15,16 @@ footer{
 /* UTILITIES */
 .paragraph-big{
   color: #8a95ad;
+  font-size: 18px;
+  text-align: center;
 }
 .paragraph-small{
   color: #8a95ad;
 }
 .header-two{
   color: #031b4e;
+  font-size: 25px;
+  text-align: center;
 }
 .header-three{
 
@@ -30,6 +33,7 @@ footer{
 
 }
 .link-blue{
+  font-size: 12px;
   color: #1072ff;
 }
 .list-item-f{
@@ -39,7 +43,11 @@ footer{
 
 }
 .partner-img{
-
+  width: 130px;
+  margin-right: 10px;
+}
+.section-2-img{
+  width: 40px;
 }
 .bg-gray{
   background-color: #f3f5f9;
@@ -59,7 +67,42 @@ footer{
   margin-bottom: 25px;
 }
 /* STYLES */
+/* HEADER */
+.navbar{
+  margin-bottom: 0;
+}
+header .container-fluid{
+  position: relative;
+  background-color: white;
+}
+#bs-example-navbar-collapse-1{
+  position: relative;
+}
+header img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+}
+#bs-example-navbar-collapse-1 > div {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#bs-example-navbar-collapse-1 li a,
+#bs-example-navbar-collapse-1 li i{
 
+  color: #031b4e;
+}
+#bs-example-navbar-collapse-1 li button{
+  border: 1px solid #1072ff;
+  border-radius: 5px;
+  background-color: white;
+  color: #1072ff;
+  padding: 5px;
+  font-size: 12px;
+}
 /* SECTION-1 */
 #section-1{
   background-image: url("../img/bg-banner-home.jpg");
@@ -68,7 +111,7 @@ footer{
 }
 #section-1  button,
 #section-1  .input-group{
-  width: 90%;
+  width: 100%;
 }
 #section-1 h1{
   color: white;
@@ -80,6 +123,7 @@ footer{
 }
 #section-1 > div > div > div:last-child{
   border-radius: 5px;
+  padding: 10px;
   background-color: white;
 }
 #section-1 h2,
@@ -89,6 +133,9 @@ footer{
   border-radius: 5px;
   padding: 5px;
   text-align: center;
+}
+#section-1 h2{
+  font-size: 25px;
 }
 #section-1 button:first-of-type{
   color: white;
@@ -102,4 +149,23 @@ footer{
 #google-button{
   box-shadow: 10px;
   background-color: white;
+}
+#section-1 p a{
+  text-decoration: underline;
+}
+/* SECTION-2 */
+#section-2 .row:first-child{
+  text-transform: uppercase;
+  color: rgb(100,100,140);
+  text-align: center;
+  font-weight: bold;
+}
+#section-2 ul li{
+  list-style: none;
+  display: inline-block;
+}
+#list-2{
+  color: gray;
+  font-size: 15px;
+  border-left: 1px solid gray;
 }
