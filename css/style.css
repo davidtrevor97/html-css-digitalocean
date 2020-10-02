@@ -20,14 +20,23 @@ footer{
 }
 .paragraph-small{
   color: #8a95ad;
+  font-size: 15px;
 }
 .header-two{
   color: #031b4e;
   font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-two-white{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
   text-align: center;
 }
 .header-three{
-
+  color: #031b4e;
+  font-size: 20px;
 }
 .header-three-f{
 
@@ -70,6 +79,33 @@ footer{
 .margin-big{
   margin-top: 0;
   margin-bottom: 25px;
+}
+.blue-ball{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #1072ff;
+}
+.blue-ball-empty{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid  #1072ff;
+}
+.s6-ams{
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.s6-amsterdam{
+  color: #8a95ad;
+  font-size: 12px;
+}
+.s6-border-bot{
+  border: none;
+  border-bottom: 2px solid white;
 }
 /* STYLES */
 /* HEADER */
@@ -179,4 +215,18 @@ header img{
 }
 #section-2 li img{
   width: 100%;
+}
+/* SECTION-4 */
+#section-4 p,
+#section-4 > div > div > div:last-child,
+#section-4 .blue-ball-empty{
+  text-align:center;
+
+}
+#section-4 img{
+  width: 100%;
+}
+/* SECTION-6 */
+#section-6 a{
+  color: #00FFFF;
 }
