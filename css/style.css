@@ -43,8 +43,13 @@ footer{
 
 }
 .partner-img{
-  width: 130px;
-  margin-right: 10px;
+  width: calc(100% / 6 - 10px);
+  margin-right: 5px;
+}
+@media screen and (max-width: 780px){
+  .partner-img{
+    width: calc(100% / 2 - 10px);
+  }
 }
 .section-2-img{
   width: 40px;
@@ -92,7 +97,7 @@ header img{
 }
 #bs-example-navbar-collapse-1 li a,
 #bs-example-navbar-collapse-1 li i{
-
+  font-size: 13px;
   color: #031b4e;
 }
 #bs-example-navbar-collapse-1 li button{
@@ -168,4 +173,10 @@ header img{
   color: gray;
   font-size: 15px;
   border-left: 1px solid gray;
+}
+#section-2 ul{
+  width: 100%;
+}
+#section-2 li img{
+  width: 100%;
 }
