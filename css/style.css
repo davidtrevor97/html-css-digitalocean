@@ -173,7 +173,7 @@ footer{
   width: 29%;
   height: 100%;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1100px){
   .sinistra{
     display: none;
   }
@@ -183,8 +183,11 @@ footer{
   .hamburger-menu{
     display: block;
   }
+  .hamburger-menu:hover{
+    cursor: pointer;
+  }
 }
-@media screen and (min-width: 1001px){
+@media screen and (min-width: 1101px){
   .hamburger-menu{
     display: none;
   }
