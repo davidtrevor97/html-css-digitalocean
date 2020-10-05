@@ -116,6 +116,12 @@ footer{
 .color-gray{
   color:#8a95ad;
 }
+@media screen and (max-width : 576px){
+  .fa-angle-left,
+  .fa-angle-right{
+    display: none;
+  }
+}
 /* STYLES */
 /* NAVBAR> */
 .ricerca{
@@ -386,6 +392,7 @@ header .destra button{
   transform:translateY(-50%);
   font-size: 20px;
 }
+
 /* SECTION-8 */
 #section-8{
   text-align: center;
